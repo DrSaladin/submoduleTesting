@@ -1,0 +1,36 @@
+.company-location {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.company-location__title {
+  font-family: @geometria-font;
+  color: @color-black;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.company-location__title img {
+  margin-right: 15px;
+}
+
+.company-location__iframe-map {
+  border: none;
+  width: 100%;
+  height: 380px;
+  margin: 0 auto;
+}
+
+@media (min-width: @desktop-width-plus) {
+  .company-location__iframe-map {
+    width: 1170px;
+    height: 380px;
+    text-align: center;
+    display: block;
+  }
+}
